@@ -1,0 +1,11 @@
+.cabecalho__btn:hover,
+.msg__principal .perfil:hover,
+.msg__principal .post:hover,
+.msg__principal .pag__link:hover {
+    color: var(--azul_escuro);
+    cursor: pointer;
+}
+
+.previa__msg:hover {
+    background-color: var(--cinza_azulado);
+}

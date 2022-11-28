@@ -1,0 +1,17 @@
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+    background-color: var(--branco_azulado1);
+}
+
+.none {
+    display: none;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.naoLido {
+    background-color: var(--branco_azulado1);
+}

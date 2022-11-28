@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+        <title>Frontend Mentor | Notifications page</title>
+    </head>
+
+    <body>
+        <main class="corpo">
+            <section class="corpo__notificacoes">
+                <div class="notificacoes__cabecalho">
+                    <div class="cabecalho__info">
+                        <h1 class="info__titulo">Notifications</h1>
+                        <span class="info__num">3</span>
+                    </div>
+
+                    <button class="cabecalho__btn">Mark all as read</button>
+                </div>
+
+                <div class="notificacoes__corpo">
+                    <div class="corpo__feed naoLido">
+                        <img src="assets/img/avatar-mark-webber.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Mark Webber </a>reacted to your recent post<a href="#" class="post"> My first tournament today!</a><div class="red__circle inline-block"></div></h2>
+                            <p class="msg__data">1m ago</p>
+                        </div>
+                    </div>
+    
+                    <div class="corpo__feed naoLido">
+                        <img src="assets/img/avatar-angela-gray.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Angela Gray</a> followed you<div class="red__circle inline-block"></div></h2>
+                            <p class="msg__data">5m ago</p>
+                        </div>
+                    </div>
+    
+                    <div class="corpo__feed naoLido">
+                        <img src="assets/img/avatar-jacob-thompson.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Jacob Thompson</a> has joined your group <a href="#" class="pag__link">Chess Club</a><div class="red__circle inline-block"></div></h2>
+                            <p class="msg__data">1 day ago</p>
+                        </div>
+                    </div>
+    
+                    <div class="corpo__feed">
+                        <img src="assets/img/avatar-rizky-hasanuddin.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Rizky Hasanuddin </a>sent you a private message<div class="red__circle none"></div></h2>
+                            <p class="msg__data">5 days ago</p>
+                            <a href="#" class="previa__msg">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</a>
+                        </div>
+                    </div>
+    
+                    <div class="corpo__feed">
+                        <img src="assets/img/avatar-kimberly-smith.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Kimberly Smith </a>commented on your picture<div class="red__circle none"></div></h2>
+                            <p class="msg__data">1 week ago</p>
+                        </div>
+                        <a href="#" class="feed__previa--img"></a>
+                    </div>
+    
+                    <div class="corpo__feed">
+                        <img src="assets/img/avatar-nathan-peterson.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Nathan Peterson </a>reacted to your recent post<a href="#" class="post"> 5 end-game strategies to increase your win rate</a><div class="red__circle none"></div></h2>
+                            <p class="msg__data">2 weeks ago</p>
+                        </div>
+                    </div>
+    
+                    <div class="corpo__feed">
+                        <img src="assets/img/avatar-anna-kim.webp" alt="Imagem de perfil" class="feed__img">
+                        <div class="feed__msg">
+                            <h2 class="msg__principal"><a href="#" class="perfil">Anna Kim</a> left the group <a href="#" class="pag__link">Chess Club</a><div class="red__circle none"></div></h2>
+                            <p class="msg__data">2 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+@import url('mobile/body.css');
+@import url('mobile/corpo-not.css');
+@import url('mobile/hover.css');
+
+@import url('desktop/body.css');
+@import url('desktop/corpo-not.css');
+
+:root {
+    --azul_escuro: hsl(219, 85%, 26%);
+    --branco: hsl(0, 0%, 100%);
+    --branco_azulado1: hsl(210, 60%, 98%);
+    --branco_azulado2: hsl(211, 68%, 94%);
+    --cinza: hsl(219, 12%, 42%);
+    --cinza_azulado: hsl(205, 33%, 90%);
+    --cinza_claro: hsl(219, 14%, 63%);
+    --preto: hsl(224, 21%, 14%);
+    --vermelho: hsl(1, 90%, 64%);
+
+    --fonte: 'Plus Jakarta Sans', sans-serif;
+}
